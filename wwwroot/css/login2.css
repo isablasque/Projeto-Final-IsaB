@@ -1,0 +1,47 @@
+.caixa {
+    width: 60%;
+    background-color: #F8F1F4;
+    margin: 0 auto;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 2px solid #EFD7E5;
+    color: #393939;
+}
+
+body {
+    text-align:center;
+}
+
+.linha {
+    background-color: #EFD7E5;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+input.btn.btn-primary.botao {
+    background-color: #393939;
+    border: none;
+    margin-top: 5%;
+}
+
+.btn:hover {
+    background-color: #727071 !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.20rem #CDA4AA !important;
+    background-color: whitesmoke !important;
+    border-color: #B78592 !important;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.20rem #CDA4AA !important;
+}

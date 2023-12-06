@@ -1,0 +1,17 @@
+﻿.titulo
+{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.linha {
+    background-color: #EFD7E5;
+    height: 20px;
+    width: 100%;
+}
+
+body {
+    background-color: #F8F1F4;
+}

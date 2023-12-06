@@ -1,0 +1,45 @@
+﻿@model IEnumerable<LoginProjeto.Models.Cidade>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="info">
+    <h1>Cidades</h1>
+
+    <p>
+        <a asp-action="Create">Cadastrar nova cidade</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CidadeNome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estado)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CidadeNome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estado.EstadoNome)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

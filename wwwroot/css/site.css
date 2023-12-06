@@ -1,0 +1,98 @@
+html {
+    font-size: 14px;
+    color: #393939;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #F8F1F4;
+}
+
+.linha {
+    background-color: #EFD7E5;
+    height: 20px;
+    width: 100%;
+}
+
+input.btn.btn-primary {
+    background-color: #393939;
+    border: none;
+    margin-top: 5%;
+}
+
+.btn:hover {
+    background-color: #727071 !important;
+}
+
+.imghome {
+    width: 405px;
+    height: 131.88px;
+}
+
+.app {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.item {
+    width:fit-content;
+    height:fit-content;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #EFD7E5;
+}
+
+.produto {
+    width: 380px;
+    height: 380px;
+    padding: 20px;
+}
+
+.info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #EFD7E5;
+    color: #393939;
+    margin-top: 50px;
+}
+
+
+a {
+    color: #B4858F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8B6A71 !important;
+}
+
+thead, tbody
+{
+    color: #393939;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.20rem #CDA4AA !important;
+    background-color: whitesmoke !important;
+    border-color: #B78592 !important;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.20rem #CDA4AA !important;
+}
+
